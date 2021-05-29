@@ -1,3 +1,5 @@
+// $ node server.js
+
 const { createServer } = require('http'),
       { readFile } = require('fs'),
       port = 3333

@@ -1,3 +1,5 @@
+// $deno run --allow-net=:3333 --allow-read=index.html server.ts
+
 import { serve } from "https://deno.land/std@0.97.0/http/server.ts";
 
 const port = 3333;
